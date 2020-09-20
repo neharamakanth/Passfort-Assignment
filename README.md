@@ -17,10 +17,10 @@ Run the pure_rest_api.py in scripts folder to view the results using Python requ
 
 ------------GET /documents/<title>----------------------------------------------------------------------------------------------------------------------------------------------
 1.Uncomment and send the title as parameter in---> print(get_list_of_documents('Name of your title'))
-2.All the available documents of that title will be listed.
+2.All the available versions of that title will be listed.
 
 -----------GET /documents/<title>/latest----------------------------------------------------------------------------------------------------------------------------------------
 1.Uncomment and send the title and True as parameters in---> print(get_list_of_documents('Name of your title',True))
-2.Latest document of that title will be listed.
+2.Latest version of that title will be listed.
 
 
